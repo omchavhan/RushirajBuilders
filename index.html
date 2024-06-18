@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<title>Rushiraj Builders</title>
 
-	<meta charset="utf-8">
-	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="description" content="">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<title>Rushiraj Builders</title>
 
-	<!-- Google Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Barlow:400,600%7COpen+Sans:400,400i,700' rel='stylesheet'>
+<meta charset="utf-8">
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="">
 
-	<!-- Css -->
-	<link rel="stylesheet" href="css/bootstrap.min.css" />
-	<link rel="stylesheet" href="css/font-icons.css" />
-	<link rel="stylesheet" href="revolution/css/settings.css" />
-	<link rel="stylesheet" href="css/style.css" />
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Barlow:400,600%7COpen+Sans:400,400i,700' rel='stylesheet'>
 
-	<!-- Favicons -->
-	<link rel="shortcut icon" href="img/favicon.ico">
-	<link rel="apple-touch-icon" href="img/apple-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+<!-- Css -->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/font-icons.css" />
+<link rel="stylesheet" href="revolution/css/settings.css" />
+<link rel="stylesheet" href="css/style.css" />
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="apple-touch-icon" href="img/apple-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+
+
+
+<!-- <!>     duv class css -->
+<link rel="stylesheet" href="style1.css">
 
 </head>
 
@@ -46,8 +53,9 @@
 						<div class="nav__header">
 							<!-- Logo -->
 							<a href="index.html" class="logo-container flex-child">
-								<img class="logo" src="img/Rushiraj Logo.png" srcset="img/Rushiraj Logo.png 1x, img/Rushiraj Logo.png 2x" alt="logo">
-								
+								<img class="logo" src="img/Rushiraj Logo.png" width="220px"
+									srcset="img/Rushiraj Logo.png 1x, img/Rushiraj Logo.png 2x" alt="logo">
+
 							</a>
 
 							<!-- Mobile toggle -->
@@ -73,7 +81,8 @@
 								</li>
 								<li class="nav__dropdown">
 									<a href="#" aria-haspopup="true">Projects</a>
-									<i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false"></i>
+									<i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true"
+										aria-expanded="false"></i>
 									<ul class="nav__dropdown-menu">
 										<li><a href="portfolio.html">Portfolio</a></li>
 										<li><a href="portfolio-gallery.html">Portfolio Gallery</a></li>
@@ -102,9 +111,9 @@
 									<!-- <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false"></i> -->
 								</li>
 							</ul> <!-- end menu -->
-							<div class="nav__phone nav__phone--mobile d-lg-none">
+							<div class="nav__phone nav__phone--mobile d-lg-none" style="width: 300px;height: 20px;">
 								<span class="nav__phone-text">Call us:</span>
-								<a href="tel:1-800-995-3959" class="nav__phone-number">1-800-995-3959</a>
+								<a href="tel:1-800-995-3959" class="nav__phone-number">800-995-3959</a>
 							</div>
 
 							<div class="nav__socials nav__socials--mobile d-lg-none">
@@ -121,7 +130,7 @@
 							</div>
 						</nav> <!-- end nav-wrap -->
 
-						<div class="nav__phone nav--align-right d-none d-lg-block">
+						<div class="nav__phone nav--align-right d-none d-lg-block" style="width: 300px;height: 20px;">
 							<span class="nav__phone-text">Call us:</span>
 							<a href="tel:1-800-995-3959" class="nav__phone-number">1-800-995-3959</a>
 						</div>
@@ -142,34 +151,180 @@
 					</div> <!-- end flex-parent -->
 				</div> <!-- end container -->
 
-			</div>
+
 		</header> <!-- end navigation -->
 
-
 		<div class="content-wrapper oh">
-
 			<div class="rev-offset"></div>
+			
 
-			<!-- Revolution Slider -->
-			<div class="home-hero-section">
 
-				<div class="hero-content-wrapper">
-					<div class="hero-background-overlay"></div>
-					<video id="v" poster="../../cdn.in.emaar.com/wp-content/uploads/2021/04/emaar_newvidbanner.jpg"
-						autoplay muted loop playsinline class="w-100" alt="" width="1920" height="1080">
-						<!--
-					  Added PHP Variable fetched earlier
-					  Changes Done By - Gayathree - SoW - WPEngineMSP Team
-					-->
-						<source src="video/builder-video.mp4" alt=""
-							caption="" type="" />
-					</video>
+			<div class="content-wrapper oh border border-black">
+				<div class="rev-offset"></div>
+				<!-- Revolution Slider -->
+				<div class="home-hero-section">
+					<div class="hero-content-wrapper">
+						<div class="hero-background-overlay"></div>
+						<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-indicators">
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+									class="active" aria-current="true" aria-label="Slide 1"></button>
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+									aria-label="Slide 2"></button>
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+									aria-label="Slide 3"></button>
+							</div>
 
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="row no-gutters">
+										<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+											<div class="video-container">
+												<a href="single-service.html" target="_blank">
+													<video class="d-block w-100 video-custom" autoplay muted loop>
+														<source src="video/video1 (1).mp4" type="video/mp4">
+														Your browser does not support the video tag.
+													</video>
+													<div class="video-name">
+														video 1
+													</div>
+												</a>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+											<div class="video-container">
+												<video class="d-block w-100 video-custom" autoplay muted loop>
+													<source src="video/video2.mp4" type="video/mp4">
+													Your browser does not support the video tag.
+												</video>
+												<div class="video-name">Video 2</div>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+											<div class="video-container">
+												<video class="d-block w-100 video-custom" autoplay muted loop>
+													<source src="video/video1 (3).mp4" type="video/mp4">
+													Your browser does not support the video tag.
+												</video>
+												<div class="video-name">Video 3</div>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+											<div class="video-container">
+												<video class="d-block w-100 video-custom" autoplay muted loop>
+													<source src="video/video1 (4).mp4" type="video/mp4">
+													Your browser does not support the video tag.
+												</video>
+												<div class="video-name">Video 4</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Add similar structure for other slides -->
+								<div class="carousel-item">
+									<div class="row no-gutters">
+										<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+											<div class="video-container">
+												<video class="d-block w-100 video-custom" autoplay muted loop>
+													<source src="video/video1 (3).mp4" type="video/mp4">
+													Your browser does not support the video tag.
+												</video>
+												<div class="video-name">Video 5</div>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+											<div class="video-container">
+												<video class="d-block w-100 video-custom" autoplay muted loop>
+													<source src="video/video1 (4).mp4" type="video/mp4">
+													Your browser does not support the video tag.
+												</video>
+												<div class="video-name">Video 6</div>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+											<div class="video-container">
+												<video class="d-block w-100 video-custom" autoplay muted loop>
+													<source src="video/video2.mp4" type="video/mp4">
+													Your browser does not support the video tag.
+												</video>
+												<div class="video-name">Video 7</div>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+											<div class="video-container">
+												<video class="d-block w-100 video-custom" autoplay muted loop>
+													<source src="video/video1 (1).mp4" type="video/mp4">
+													Your browser does not support the video tag.
+												</video>
+												<div class="video-name">Video 8</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Add more carousel items as needed -->
+								<div class="carousel-item">
+									<div class="row no-gutters">
+										<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+											<div class="video-container">
+												<video class="d-block w-100 video-custom" autoplay muted loop>
+													<source src="video/video1 (3).mp4" type="video/mp4">
+													Your browser does not support the video tag.
+												</video>
+												<div class="video-name">Video 9</div>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+											<div class="video-container">
+												<video class="d-block w-100 video-custom" autoplay muted loop>
+													<source src="video/video1 (1).mp4" type="video/mp4">
+													Your browser does not support the video tag.
+												</video>
+												<div class="video-name">Video 10</div>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+											<div class="video-container">
+												<video class="d-block w-100 video-custom" autoplay muted loop>
+													<source src="video/video2.mp4" type="video/mp4">
+													Your browser does not support the video tag.
+												</video>
+												<div class="video-name">Video 12</div>
+											</div>
+										</div>
+										<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+											<div class="video-container">
+												<video class="d-block w-100 video-custom" autoplay muted loop>
+													<source src="video/video1 (3).mp4" type="video/mp4">
+													Your browser does not support the video tag.
+												</video>
+												<div class="video-name">Video 12</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Carousel controls -->
+							<!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button> -->
+						</div>
+					</div>
 				</div>
 			</div>
 
+
+
+
 			<!-- Intro -->
-			<section class="section-wrap intro pb-40" > 
+			<section class="section-wrap intro pb-40">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-7">
@@ -512,30 +667,31 @@
 				</div>
 			</section> end from blog -->
 
-					<!-- Contact -->
-					<section class="section-wrap">
-						<div class="container">
-						  <div class="row">
-							<div class="col-lg-4">
-							  <div class="contact">
-												<h5 class="contact__title">Contact Us</h5>
+			<!-- Contact -->
+			<section class="section-wrap">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="contact">
+								<h5 class="contact__title">Contact Us</h5>
 								<ul class="contact__items">
-								  <li class="contact__item">
-														<span class="contact__item-label">Address:</span>
-									<address>RUSHIRAJ HOUSE, Behind Kotak Mahindra Bank, Kulkarni Baug, HDFC Bank Road, Thatte Nagar,
-										Nashik MH 422005 IN.</address>
-								  </li>
-								  <li class="contact__item">
-									<span class="contact__item-label">Phone: </span>
-									<a href="tel:+1-800-1554-456-123">+ 1 (800) 155 4561</a>
-								  </li>
-								  <li class="contact__item">
-									<span class="contact__item-label">Email: </span>
-									<a href="mailto:themesupport@gmail.com">rushirajsupport@gmail.com</a>
-								  </li>
-												</ul>
-												
-												<!-- <h5 class="contact__title mt-40">Follow Us</h5>
+									<li class="contact__item">
+										<span class="contact__item-label">Address:</span>
+										<address>RUSHIRAJ HOUSE, Behind Kotak Mahindra Bank, Kulkarni Baug, HDFC Bank
+											Road, Thatte Nagar,
+											Nashik MH 422005 IN.</address>
+									</li>
+									<li class="contact__item">
+										<span class="contact__item-label">Phone: </span>
+										<a href="tel:+1-800-1554-456-123">+ 1 (800) 155 4561</a>
+									</li>
+									<li class="contact__item">
+										<span class="contact__item-label">Email: </span>
+										<a href="mailto:themesupport@gmail.com">rushirajsupport@gmail.com</a>
+									</li>
+								</ul>
+
+								<!-- <h5 class="contact__title mt-40">Follow Us</h5>
 												<div class="socials">
 													<a href="#" class="social social-twitter" aria-label="twitter" title="twitter" target="_blank"><i class="ui-twitter"></i></a>
 													<a href="#" class="social social-facebook" aria-label="facebook" title="facebook" target="_blank"><i class="ui-facebook"></i></a>
@@ -543,60 +699,64 @@
 													<a href="#" class="social social-instagram" aria-label="instagram" title="instagram" target="_blank"><i class="ui-instagram"></i></a>
 												</div>
 				 -->
-							  </div>
-										</div>
-										<div class="col-lg-7 offset-lg-1">
-											<h2 class="section-title">WHAT CAN WE HELP YOU?</h2>
-											<p class="mb-40">If you have any question about project cost, get in touch.</p>
-											<!-- Contact Form -->
-											<form id="contact-form" class="contact-form material" method="post" action="#">
-				
-												<div class="row">
-													<div class="col-lg-6">
-														<!-- Name -->
-														<div class="material__form-group form-group">
-															<input type="text" name="name" id="name" class="form-input material__input" required="">
-															<label for="name" class="material__label">Name
-																<abbr title="required" class="required">*</abbr>
-															</label>
-															<span class="material__underline"></span>
-														</div>
-													</div>
-													<div class="col-lg-6">
-														<!-- Email -->
-														<div class="material__form-group form-group">
-															<input type="email" name="email" id="email" class="form-input material__input" required="">
-															<label for="email" class="material__label">Email
-																<abbr title="required" class="required">*</abbr>
-															</label>
-															<span class="material__underline"></span>
-														</div>
-													</div>
-												</div>
-				
-												<!-- Subject -->
-												<div class="material__form-group form-group">
-													<input type="text" name="subject" id="subject" class="form-input material__input">
-													<label for="subject" class="material__label">Subject
-													</label>
-													<span class="material__underline"></span>
-												</div>							
-				
-												<div class="material__form-group form-group">
-													<textarea id="message" name="message" rows="7" class="form-input material__input" required=""></textarea>
-													<label for="message" class="material__label">Message
-														<abbr title="required" class="required">*</abbr>
-													</label>
-													<span class="material__underline"></span>
-												</div>								
-				
-												<input type="submit" class="btn btn--lg btn--color btn--button" value="Send Message" id="submit-message">
-												<div id="msg" class="message"></div>
-											</form>
-										</div>
-						  </div>
+							</div>
 						</div>
-					  </section> <!-- end contact -->
+						<div class="col-lg-7 offset-lg-1">
+							<h2 class="section-title">WHAT CAN WE HELP YOU?</h2>
+							<p class="mb-40">If you have any question about project cost, get in touch.</p>
+							<!-- Contact Form -->
+							<form id="contact-form" class="contact-form material" method="post" action="#">
+
+								<div class="row">
+									<div class="col-lg-6">
+										<!-- Name -->
+										<div class="material__form-group form-group">
+											<input type="text" name="name" id="name" class="form-input material__input"
+												required="">
+											<label for="name" class="material__label">Name
+												<abbr title="required" class="required">*</abbr>
+											</label>
+											<span class="material__underline"></span>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<!-- Email -->
+										<div class="material__form-group form-group">
+											<input type="email" name="email" id="email"
+												class="form-input material__input" required="">
+											<label for="email" class="material__label">Email
+												<abbr title="required" class="required">*</abbr>
+											</label>
+											<span class="material__underline"></span>
+										</div>
+									</div>
+								</div>
+
+								<!-- Subject -->
+								<div class="material__form-group form-group">
+									<input type="text" name="subject" id="subject" class="form-input material__input">
+									<label for="subject" class="material__label">Subject
+									</label>
+									<span class="material__underline"></span>
+								</div>
+
+								<div class="material__form-group form-group">
+									<textarea id="message" name="message" rows="7" class="form-input material__input"
+										required=""></textarea>
+									<label for="message" class="material__label">Message
+										<abbr title="required" class="required">*</abbr>
+									</label>
+									<span class="material__underline"></span>
+								</div>
+
+								<input type="submit" class="btn btn--lg btn--color btn--button" value="Send Message"
+									id="submit-message">
+								<div id="msg" class="message"></div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section> <!-- end contact -->
 
 			<!-- Footer -->
 			<footer class="footer bg-dark-overlay" style="background-image: url(img/footer/1.jpg);">
@@ -608,8 +768,10 @@
 								<div class="widget widget-about-us">
 									<!-- Logo -->
 									<a href="index.html" class="logo-container flex-child">
-										<img class="logo" src="img/Rushiraj Logo-footer.png" srcset="img/Rushiraj Logo-footer.png 1x, img/Rushiraj Logo-footer.png 2x" alt="logo">
-										
+										<img class="logo" src="img/Rushiraj Logo-footer.png"
+											srcset="img/Rushiraj Logo-footer.png 1x, img/Rushiraj Logo-footer.png 2x"
+											alt="logo">
+
 									</a>
 								</div>
 							</div> <!-- end logo -->
@@ -641,7 +803,8 @@
 									<ul class="contact__items">
 										<li class="contact__item">
 											<span class="contact__item-label">Address:</span>
-											<address>RUSHIRAJ HOUSE, Behind Kotak Mahindra Bank, Kulkarni Baug, HDFC Bank Road, Thatte Nagar, <br> Nashik MH 422005 IN.
+											<address>RUSHIRAJ HOUSE, Behind Kotak Mahindra Bank, Kulkarni Baug, HDFC
+												Bank Road, Thatte Nagar, <br> Nashik MH 422005 IN.
 											</address>
 										</li>
 										<!-- <li class="contact__item">
@@ -682,7 +845,7 @@
 							&copy; Since 1987 <a href="index.html">Rushiraj Builders</a>
 						</span>
 					</div>
-				</div> 
+				</div>
 			</footer> <!-- end footer -->
 
 			<div id="back-to-top">
@@ -713,6 +876,17 @@
 	<script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
 	<script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
 	<script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+
+	<script src="video.js"></script>
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+		integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+		crossorigin="anonymous"></script>
 
 </body>
 
