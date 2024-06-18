@@ -23,15 +23,7 @@
   }
 
   .video-name {
-    font-size: 30px;
-    font-family: "Times New Roman", Times, serif;
-    text-align: center;
-    width: auto;
-    position: absolute;
-    bottom: 20px;
-    right: 15px;
-    z-index: 22;
-    color: white;
+    font-size: 12px; /* Adjust the font size for video names on mobile devices */
   }
 }
 
@@ -57,11 +49,11 @@
   .video-name {
     font-size: 30px;
     font-family: "Times New Roman", Times, serif;
-    text-align: center; 
+    text-align: center;
     width: auto;
     position: absolute;
     bottom: 20px;
-    left: 100px;
+    right: 15px;
     z-index: 22;
     color: white;
   }
@@ -79,14 +71,12 @@
   .video-custom {
     height: 400px; /* Adjust this value to your desired video height for large devices */
   }
-
-  
 }
 
 /* For screens larger than or equal to 1200px */
 @media (min-width: 1200px) {
   .video-custom {
-    height: 544px; /* Adjust this value to your desired video height for extra-large devices */
+    height: 500px; /* Adjust this value to your desired video height for extra-large devices */
   }
 }
 
@@ -138,4 +128,117 @@
 .nav__phone-number {
   color: #ff6600; /* Change the phone number color */
   text-decoration: none;
+}
+
+
+
+*****
+//* Basic styles for the main dropdown */
+.nav__dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+}
+
+.nav__dropdown-menu a {
+  color: black; /* Text color */
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.nav__dropdown:hover .nav__dropdown-menu {
+  display: block;
+}
+
+/* Basic styles for the sub-dropdown */
+/* Basic styles for the main dropdown */
+.nav__dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  color: black;
+}
+
+.nav__dropdown-menu a {
+  color: black; /* Text color */
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.nav__dropdown:hover .nav__dropdown-menu {
+  display: block;
+}
+
+/* Basic styles for the sub-dropdown */
+.nav__sub-dropdown-menu {
+  display: none;
+  position: absolute;
+  left: 100%; /* Adjust this if you want the sub-menu to appear to the right */
+  top: 0;
+  background-color: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  min-width: 200px; /* Minimum width */
+}
+
+.nav__sub-dropdown-menu li {
+  border-bottom: 1px solid #ccc;
+}
+
+.nav__sub-dropdown-menu a {
+  color: black; /* Text color */
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  position: relative;
+}
+
+.nav__sub-dropdown-menu a .icon {
+  margin-right: 10px;
+}
+
+.nav__sub-dropdown-menu a:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 80%;
+  background-color: #ccc;
+}
+
+.nav__sub-dropdown-menu a:last-child:before {
+  display: none; /* Remove line for the last item */
+}
+
+.nav__dropdown-menu li:hover .nav__sub-dropdown-menu {
+  display: block;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav__sub-dropdown-menu {
+    padding: 15px; /* Increase padding on smaller screens */
+    min-width: 250px; /* Increase minimum width on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .nav__sub-dropdown-menu {
+    padding: 20px; /* Further increase padding on very small screens */
+    min-width: 300px; /* Further increase minimum width on very small screens */
+  }
 }
