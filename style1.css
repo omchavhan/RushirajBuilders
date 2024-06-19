@@ -53,9 +53,9 @@
     width: auto;
     position: absolute;
     bottom: 20px;
-    right: 15px;
+    left: 100px;
     z-index: 22;
-    color: white;
+    color: rgb(5, 5, 5);
   }
   * {
     box-sizing: border-box;
@@ -71,6 +71,8 @@
   .video-custom {
     height: 400px; /* Adjust this value to your desired video height for large devices */
   }
+
+  
 }
 
 /* For screens larger than or equal to 1200px */
@@ -81,6 +83,9 @@
 }
 
 ***
+
+  
+
 
 
 /* Increase the width of the navbar */
@@ -164,7 +169,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   color: black;
 }
 
@@ -183,24 +188,24 @@
 .nav__sub-dropdown-menu {
   display: none;
   position: absolute;
-  left: 100%; /* Adjust this if you want the sub-menu to appear to the right */
+  left: 70%; /* Adjust this if you want the sub-menu to appear to the right */
   top: 0;
   background-color: white;
   list-style: none;
   padding: 0;
   margin: 0;
-  border: 1px solid #ccc;
-  min-width: 200px; /* Minimum width */
+  /* border: 1px solid #ccc; */
+  /* min-width: 200px;  */
 }
 
 .nav__sub-dropdown-menu li {
-  border-bottom: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc; */
 }
 
 .nav__sub-dropdown-menu a {
-  color: black; /* Text color */
+  color: gray; /* Text color */
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 5px 5px;
   display: block;
   position: relative;
 }
